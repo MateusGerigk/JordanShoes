@@ -241,3 +241,25 @@ text-shadow: 0 -1px 4px rgb(0, 0, 0), 0 -2px 5px rgba(255, 51, 0, 0.397), 0 -10p
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 1280px) {
+    
+    .content-products {
+        justify-content: space-around;
+        display: flex;
+        margin: 0;
+    }
+
+    .slide-3 .text-card3 {
+        margin-right: 0px;
+        }
+
+
+}
+
+@media (max-width: 425px) {
+
+    .slide-2 .text-card2 {
+        height: 25%;
+    }
+}
